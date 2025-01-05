@@ -1,0 +1,191 @@
+.logo {
+    margin-top: -5px;
+    padding-left: 100px;
+    width: 1280px;
+    text-align: center;
+    display: flex;
+    
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px; 
+    flex-wrap: wrap;
+    padding-left: 650px 
+    
+ 
+}
+
+.home button{
+    background-color: white;
+    color: black;
+    border: none; 
+    border-radius: 250px; 
+    padding: 10px 20px; 
+    margin-top: 0px;
+    font-size: 20px; 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+}
+
+
+.about button{
+    background-color: white;
+    color: black;
+    border: none; 
+    border-radius: 250px; 
+    padding: 10px 20px; 
+    margin-top: 0px;
+    font-size: 20px; 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+}
+
+
+.contact button{
+    background-color: white;
+    color: black; 
+    border: none; 
+    border-radius: 250px; 
+    padding: 10px 20px; 
+    margin-top: 0px;
+    font-size: 20px; 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+}
+
+.home button:hover {
+    border: none;
+    color: #33c2b0; 
+    transform: scale(1.05); 
+}
+
+.about button:hover {
+    border: none;
+    color: #33c2b0; 
+    transform: scale(1.05); 
+}
+
+.contact button:hover {
+    border: none;
+    color: #33c2b0; 
+    transform: scale(1.05); 
+}
+
+.background {
+    background-color: #40e0d0;
+  width: auto;
+  height: 1400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  
+}
+
+.circle {
+    width: 750px;
+    height: 750px;
+    border-radius:500px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+
+  .circle2 {
+    width: 210px;
+    height: 210px;
+    border-radius:160px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hollow-circle {
+    border: 40px solid #fff;
+    background-color: transparent;
+  }
+  
+  .hollow-circle:nth-child(1) {
+    top: 160px;
+    left: 800px;
+  }
+  
+  .hollow-circle:nth-child(2) {
+    top: 160px;
+    left: 800px;
+  }
+
+  .image-circle {
+    background-image: url(img/ujuja.png);
+    background-size: 800px;
+    background-position: 800px;
+    top: 140px;
+    left: 50px;
+    
+  }
+
+  .text-circle {
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    top: 600px;
+    left: 450px;
+  }
+
+  .text-circle h1 {
+    font-size: 60px; 
+    margin: 0 0 10px; 
+    font-weight: bold; 
+  }
+  
+  
+  .text-circle p {
+    font-size: 26px; 
+    margin: 0; 
+    line-height: 1.5; 
+  }
+
+
+  .text-circle button {
+    background-color: #40e0d0; 
+    color: white; 
+    border: none; 
+    border-radius: 250px; 
+    padding: 10px 20px; 
+    margin-top: 20px;
+    font-size: 20px; 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+}
+
+
+.text-circle button:hover {
+    background-color: #33c2b0; 
+    color: #f0f8ff; 
+    transform: scale(1.05); 
+}
+
+.circley {
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    top: 600px;
+    left: 450px;
+    
+  }
+
+  
+
+  
+  
